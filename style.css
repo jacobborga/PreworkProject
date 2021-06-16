@@ -22,3 +22,7 @@ section#main {
 section#main p {
 	font-size: 18px;
 }
+
+.hide {
+	display: none;
+}
