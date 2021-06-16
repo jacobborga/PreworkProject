@@ -1,0 +1,24 @@
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	height: 90%;
+	padding: 0;
+	margin: 0 auto;
+	background: linear-gradient(rgb(255, 255, 255), rgb(108, 181, 194));
+	background-repeat: no-repeat;
+}
+
+section#main {
+	height: auto;
+	width: 75%;
+	margin-left: 3rem;
+}
+
+section#main p {
+	font-size: 18px;
+}
