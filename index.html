@@ -5,19 +5,42 @@
 	<title>Jacob Borga</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 	<link href="./style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body onload="initialize()">
 	<section id="main">
-		<h2 id="header">Introduction</h2>
-		<p>Welcome to my personal site where I will demonstrate what I learned through the Flatiron pre-course work
-			including HTML, CSS, and JS.</p>
-		<p>For the past few years I have been attempting to learn the aspects of programming and CS as well as how
-			programming works in the real world. Hopefully on this journey I will meet a lot of new people, learn a lot
-			of new and exciting things, and explore new ideas through Flatiron. This website not only contains
-			information about me, but it also includes my favorite waterski designs in gallery format. Click the
-			waterski button below to see the gallery, or explore around a little more if you want!</p>
+		<div class="introduction-container">
+			<h2 id="introductionHeader">Introduction</h2>
+			<p>Welcome to my personal site where I will demonstrate what I learned through the Flatiron pre-course work
+				including HTML, CSS, and JS.</p>
+			<p>For the past few years I have been attempting to learn the aspects of programming and CS as well as how
+				programming works in the real world. Hopefully on this journey I will meet a lot of new people, learn a
+				lot
+				of new and exciting things, and explore new ideas through Flatiron. This website not only contains
+				information about me, but it also includes my favorite waterski designs in gallery format. Click the
+				waterski button below to see the gallery, or explore around a little more if you want!</p>
+		</div>
+		<div class="about-me-container">
+			<h2 id="aboutMeHeader">About Me</h2>
+			<p>From a young age I have been interested in computers. From modifying online games like Minecraft, to
+				building static websites experimenting with code. Over that duration I wasn't as serious as I am now
+				about pursuing a career out of code, but with the demand of developers being this high it isn't an
+				opportunity I can miss. I also have a few other non-code-related interests such as hiking through the
+				amazing Colorado Rockies, and waterskiing on many of the beautiful lakes here.</p>
+		</div>
+		<div className="experiment-container">
+			<h2 id="experimentHeader">What have I experimented with?</h2>
+			<p>I have experimented with different concepts outside of this pre-work such as <b>React.Js</b>,
+				<b>jQuery</b> and even backend frameworks like <b>Node.Js with Express.Js</b>.</p>
+			<p>Like a lot of developers out there, I fell in love with working in React. From having abstract components
+				that can be used anywhere in your project, to a wide range of libraries that give you the tools to
+				succeed.</p>
+			<p>I also know Typescript and how to use it to create a more efficient workflow along with a better
+				visualization of your data.</p>
+		</div>
 		<button id="navToWaterski">Waterskis</button>
 	</section>
 	<section class="hide" id="waterski">

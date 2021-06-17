@@ -9,18 +9,41 @@ body {
 	height: 90%;
 	padding: 0;
 	margin: 0 auto;
-	background: linear-gradient(rgb(255, 255, 255), rgb(108, 181, 194));
+	background: linear-gradient(rgb(225, 246, 247), rgb(191, 220, 226), rgb(135, 221, 221));
 	background-repeat: no-repeat;
 }
 
-section#main {
+section#main,
+section#waterski {
 	height: auto;
 	width: 75%;
 	margin-left: 3rem;
 }
 
+section#main h2 {
+	font-weight: 1000;
+}
+
+
 section#main p {
-	font-size: 18px;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+section#main button {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	border: rgba(99, 99, 99, 0.5) solid 1px;
+	width: 150px;
+	height: 50px;
+	right: 5rem;
+	top: 4rem;
+	font-size: 16px;
+}
+
+section#main button:hover {
+	background: rgb(235, 235, 235);
 }
 
 section#footer {
