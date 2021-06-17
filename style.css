@@ -47,10 +47,33 @@ section#main button:hover {
 }
 
 section#footer {
-	width: 100%;
+	width: 35%;
 	text-align: center;
 	position: absolute;
 	bottom: 1rem;
+	left: 32%;
+}
+
+section#footer a {
+	display: block;
+	margin: 0 auto;
+	height: 32px;
+	width: 32px;
+	text-decoration: none;
+}
+
+section#footer a img {
+	padding: 0;
+}
+
+section#footer div.footer-links {
+	display: flex;
+	flex-direction: row;
+}
+
+section#footer footer {
+	width: 50%;
+	line-height: 2.1em;
 }
 
 .hide {
