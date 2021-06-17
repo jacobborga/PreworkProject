@@ -39,16 +39,33 @@ div.experiment-container a {
 section#main button {
 	font-family: 'Poppins', sans-serif;
 	position: absolute;
+	right: 5rem;
+	top: 4rem;
 	border: rgba(99, 99, 99, 0.5) solid 1px;
 	width: 150px;
 	height: 50px;
-	right: 5rem;
-	top: 4rem;
 	font-size: 16px;
 }
 
 section#main button:hover {
 	background: rgb(235, 235, 235);
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	place-items: center;
+	background: white;
+	margin-top: 1rem;
+	border: black solid 1px;
+}
+
+.gallery img {
+	padding: 10px;
+	margin-block: 0.5rem;
+	border: rgba(68, 68, 68, 0.61) solid 1px;
+	cursor: pointer;
 }
 
 section#waterski button {
