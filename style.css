@@ -31,6 +31,11 @@ section#main p {
 	font-weight: 500;
 }
 
+div.experiment-container a {
+	color: rgb(76, 110, 184);
+	text-decoration: none;
+}
+
 section#main button {
 	font-family: 'Poppins', sans-serif;
 	position: absolute;
@@ -43,6 +48,21 @@ section#main button {
 }
 
 section#main button:hover {
+	background: rgb(235, 235, 235);
+}
+
+section#waterski button {
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	border: rgba(99, 99, 99, 0.5) solid 1px;
+	width: 150px;
+	height: 50px;
+	right: 5rem;
+	top: 4rem;
+	font-size: 16px;
+}
+
+section#waterski button:hover {
 	background: rgb(235, 235, 235);
 }
 
